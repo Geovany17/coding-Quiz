@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--===============================================================================================-->
+    <!-- This is the title-->
+    <!--===============================================================================================-->
+
+    <title>Quiz</title>
+
+    <!--===============================================================================================-->
+    <!--Quiz Test -->
+    <!-- bootstrap style links -->
+    <!--===============================================================================================-->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!--===============================================================================================-->
+    <!--google fonts link-->
+    <!--===============================================================================================-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+
+    <!--===============================================================================================-->
+    <!-- This is the style links -->
+    <!--===============================================================================================-->
+
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+</head>
+
+<body>
+    <!--===============================================================================================-->
+    <!-- Link to highscores -->
+    <!--===============================================================================================-->
+
+    <header class="page__header">
+        <a href="HighScores.html"> <button id="HighScoreBtn">View Highscores</button></a>
+    </header>
+
+    <main id="wrapper" class="rounded-lg">
+        <section id="currentTime">
+            <!--==============================================================================-->
+            <!--timer-->
+            <!--==============================================================================-->
+        </section>
+
+        <!--===============================================================================================-->
+        <!--quiz questions-->
+        <!--===============================================================================================-->
+
+        <article id="questionsDiv">
+
+            <h1><strong>Quiz</strong></h1>
+
+            <hr>
+            <br>
+
+            <h4><em>Try to answer the following questions within the time limit.</h4>
+
+            <h4> Keep in mind that every incorrect answer will be penalize with your score/time,
+
+                decreasing your --timer-- by ten seconds!</em></h4>
+
+            <ul id="choicesUl"></ul>
+
+        </article>
+
+        <!--===============================================================================================-->
+        <!-- Button -->
+        <!--===============================================================================================-->
+        <br>
+        <button id="startTime">Start Quiz</button>
+
+    </main>
+    <script src="questions.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
