@@ -1,0 +1,169 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  font-family: "Raleway", sans-serif;
+  background-size: cover;
+}
+
+#HighScoreBtn {
+  background-color: rgb(11, 108, 236);
+  margin-left: 85%;
+  padding: 20px 32px;
+  font-size: 20px;
+  color: white;
+  margin-top: 30px;
+}
+
+#wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: absolute;
+  width: fit-content;
+  left: 30%;
+  top: 20%;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  background-color: #f9f9f9;
+}
+
+#startTime {
+  background-color: rgb(11, 108, 236);
+  margin-left: 33%;
+  padding: 15px 32px;
+  font-size: 15px;
+  color: white;
+}
+
+#currentTime {
+  float: right;
+}
+
+#goBack {
+  background-color: rgb(238, 37, 63);
+  position: absolute;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  top: 30%;
+  left: 55%;
+  width: auto;
+  text-align: center;
+  text-decoration: none;
+  padding-right: 45px;
+  margin-left: 35px;
+}
+
+#clear {
+  background-color: rgb(11, 108, 236);
+  position: inherit;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  top: 30%;
+  right: 5%;
+  text-align: center;
+  margin-top: 92px;
+}
+
+button {
+  border-radius: 8px;
+}
+
+textarea {
+  width: 90%;
+  margin: 20px;
+}
+
+#Submit {
+  background-color: rgb(11, 108, 236);
+  margin-left: 33%;
+  padding: 15px 32px;
+  font-size: 20px;
+  color: white;
+}
+
+label {
+  margin-right: 10px;
+}
+input {
+  margin-bottom: 20px;
+  width: 50%;
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  background-color: #f9f9f9;
+  margin-top: 10px;
+  padding: 5px 15px;
+  width: 80%;
+  font-size: 20px;
+  color: black;
+}
+
+#createDiv {
+  margin-top: 20px;
+  border-top: 1px solid lightgray;
+}
+
+/* Start media queries */
+/* A Media Query max-width: 786px */
+@media screen and (max-width: 786px) {
+  /* Resized content to fit 786px  */
+  body {
+    max-width: 786px;
+  }
+  /* Resized main-content to fit 786px  */
+  #wrapper {
+    position: absolute;
+    left: 20%;
+  }
+
+  a {
+    margin-left: 20%;
+  }
+  #goBack {
+    position: absolute;
+    left: 55%;
+  }
+
+  #clear {
+    position: absolute;
+    right: 5%;
+  }
+}
+
+/* A Media Query max-width: 640px */
+@media screen and (max-width: 640px) {
+  /* Resized content to fit 640px  */
+  body {
+    min-width: 640px;
+  }
+  /* Resized main-content to fit 640px  */
+  #wrapper {
+    position: absolute;
+    left: 10%;
+  }
+  a {
+    margin-left: 10%;
+  }
+}
