@@ -4,51 +4,34 @@
 
 var questions = [
     {
-        title: "",
-        choices: [""],
-        answer: ""
-    },
-    {
-        title: "",
-        choices: [""],
-        answer: ""
-    },
-    {
-        title: "",
-        choices: [""],
-        answer: ""
-    },
-    {
-        title: "",
-        choices: [""],
-        answer: ""
-    },
-    {
-        title: "",
-        choices: [""],
-        answer: ""
-    },
-    {
-        title: "",
-        choices: [""],
-        answer: ""
-    },
-    {
-        title: "",
-        choices: [""],
-        answer: ""
-    },
-    {
-        title: "",
-        choices: [""],
-        answer: ""
-    },
-    {
-        title: "",
-        choices: [""],
-        answer: ""
+        title: "Primarily, inside which tag of an HTML document do you put the JavaScript?",
+        choices: ["<java>", "<body>", "<script>", "<img>"],
+        answer: "<script>"
     },
 
+    {
+        title: "Commonly used data types DO NOT include:",
+        choices: ["strings", "booleans", "alerts", "numbers"],
+        answer: "alerts"
+    },
+
+    {
+        title: "The condition in an if / else statement is enclosed within ____.",
+        choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
+        answer: "parentheses"
+    },
+
+    {
+        title: "An array always begins at an index of:",
+        choices: ["-1", "0", "1", "null"],
+        answer: "0"
+    },
+
+    {
+        title: "A very useful tool for used during development and debugging for printing content to the debugger is:",
+        choices: ["Javascript", "terminal / bash", "for loops", "console log"],
+        answer: "console log"
+    },
 
 ];
 

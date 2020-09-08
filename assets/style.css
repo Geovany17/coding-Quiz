@@ -10,7 +10,13 @@ html {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
+
+/*=========================================*/
+/*========== Background & font family========= */
+/*=========================================*/
 
 body {
   background-image: url("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
@@ -18,14 +24,22 @@ body {
   background-size: cover;
 }
 
+/*=========================================*/
+/*=====================High Score Button====================*/
+/*=========================================*/
+
 #HighScoreBtn {
   background-color: rgb(11, 108, 236);
   margin-left: 85%;
   padding: 20px 32px;
   font-size: 20px;
-  color: white;
+  color: black;
   margin-top: 30px;
 }
+
+/*=========================================*/
+/*=====================Wrapper====================*/
+/*=========================================*/
 
 #wrapper {
   margin-right: auto;
@@ -42,6 +56,10 @@ body {
   background-color: #f9f9f9;
 }
 
+/*=========================================*/
+/*=====================Start Quiz Button====================*/
+/*=========================================*/
+
 #startTime {
   background-color: rgb(11, 108, 236);
   margin-left: 33%;
@@ -50,9 +68,17 @@ body {
   color: white;
 }
 
+/*=========================================*/
+/*=====================Time location====================*/
+/*=========================================*/
+
 #currentTime {
   float: right;
 }
+
+/*=========================================*/
+/*=====================Return Button====================*/
+/*=========================================*/
 
 #goBack {
   background-color: rgb(238, 37, 63);
@@ -68,6 +94,10 @@ body {
   padding-right: 45px;
   margin-left: 35px;
 }
+
+/*=========================================*/
+/*=====================Clear High Scores or Reset Button====================*/
+/*=========================================*/
 
 #clear {
   background-color: rgb(11, 108, 236);
@@ -125,14 +155,23 @@ li {
   border-top: 1px solid lightgray;
 }
 
+/*=========================================*/
 /* Start media queries */
 /* A Media Query max-width: 786px */
+/*=========================================*/
+
 @media screen and (max-width: 786px) {
+  /*=========================================*/
   /* Resized content to fit 786px  */
+  /*=========================================*/
+
   body {
     max-width: 786px;
   }
+  /*=========================================*/
   /* Resized main-content to fit 786px  */
+  /*=========================================*/
+
   #wrapper {
     position: absolute;
     left: 20%;
@@ -152,13 +191,23 @@ li {
   }
 }
 
+/*=========================================*/
 /* A Media Query max-width: 640px */
+/*=========================================*/
+
 @media screen and (max-width: 640px) {
+  /*=========================================*/
   /* Resized content to fit 640px  */
+  /*=========================================*/
+
   body {
     min-width: 640px;
   }
+
+  /*=========================================*/
   /* Resized main-content to fit 640px  */
+  /*=========================================*/
+
   #wrapper {
     position: absolute;
     left: 10%;
