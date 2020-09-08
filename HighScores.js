@@ -6,12 +6,15 @@ var highScore = document.querySelector("#highScore");
 var clear = document.querySelector("#clear");
 var goBack = document.querySelector("#goBack");
 
+
 //===========================================//
 // Event listener to clear scores 
 //===========================================//
 
 clear.addEventListener("click", function () {
+
     localStorage.clear();
+
     location.reload();
 });
 
@@ -20,16 +23,22 @@ clear.addEventListener("click", function () {
 //===========================================//
 
 var allScores = localStorage.getItem("allScores");
+
 var allScores = JSON.parse("allScores");
 
 if (allScores !== null) {
 
     for (var i = 0; i < allScores.length; i++) {
+
         var list = document.createElement("li");
+
         " " + allScores[i].score;
+
         highScore.appendChild(list);
+
     }
 };
+
 
 //===========================================//
 // Event listener to move to index page 
