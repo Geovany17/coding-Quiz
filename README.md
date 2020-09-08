@@ -11,7 +11,7 @@ This project has been deployed to GitHub Pages.
 ### This project has the following features:
 
 - A Start Quiz button
-  ![](<assets/images/Screenshot(2).png>)
+  ![](<<assets/images/Screenshot(2)>>)
 
 - This starts a timer for the user
 
