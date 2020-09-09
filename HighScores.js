@@ -37,7 +37,7 @@ if (allScores !== null) {
         highScore.appendChild(list);
 
     }
-};
+}
 
 
 //===========================================//
