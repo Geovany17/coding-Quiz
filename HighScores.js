@@ -32,7 +32,7 @@ if (allScores !== null) {
 
         var list = document.createElement("li");
 
-        " " + allScores[i].score;
+        list.textContent = allScores[i].initials + " " + allScores[i].score;
 
         highScore.appendChild(list);
 
